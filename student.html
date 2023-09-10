@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teacher's Section</title>
+    <link rel="stylesheet" href="./assests/CSS/teacher.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h2>Add or Remove Teacher</h2>
+        
+        <br />
+        <div class="form">
+           Id:&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<input type="text" name="RollNo" id="roll" /> <br /><br />
+            Name:&nbsp;&nbsp; &nbsp; &nbsp; <input type="text"  name="name" id="name" /> <br /><br />
+            Gender:&nbsp; &nbsp; <input type="text" name="gender" id="gender" /> <br /><br />
+            Subject:&nbsp; <input type="text" name="Address" id="address" /> <br /><br />
+        </div>
+
+        <div class="buttons">
+            <button id="create">Create</button>
+            <button id="read">Read</button>
+            <button id="update">Update</button>
+            <button id="delete">Delete</button>
+        </div>
+        
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase.js"></script>
+
+    <script src="./assests/JS/config.js"></script>
+
+    <script src="./assests/JS/teacher.js"></script>
+</body>
+
+</html>
