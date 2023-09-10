@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    background-color: darkblue;
+    height: 60px;
+padding-top: 10px;
+}
+header h3{
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+    font-size: 30px;
+    padding-left: 30px;
+}
+header a {
+margin-left: 55%;
+float: right;
+}
+header a #login{
+    width: 100px;
+  height: 40px; 
+  font-size: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-family: 'Pacifico', cursive;
+}
+header a #login:hover{
+    color: #fff;
+    background-color: darkblue;
+}
+header a #signup{
+    width: 100px;
+    height: 40px; 
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: 'Pacifico', cursive;
+    background-color: #fff;
+    color: darkblue;
+}
+header a #signup:hover{
+    color: #fff;
+    background-color: darkblue;
+}
+#titleSignUp{
+    font-family: 'Pacifico', cursive;
+text-align: center;
+font-size: larger;
+color: darkblue;
+padding-top: 30px;
+
+}
+#form{
+    width: 80%;
+    height: 550px;
+    /* background-color: rgb(229, 239, 243); */
+    margin-left: 140px;
+    border-radius: 20px;
+text-align: center;
+padding-top: 22px;
+}
+#form input{
+    width: 70%;
+    height: 6%;
+    border-radius: 10px;
+    border: 2px solid darkblue;
+}
+#signup ,#login{
+    width: 100px;
+    height: 40px; 
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: 2px solid darkblue;
+    color: darkblue;
+    background-color: #fff;
+}
+#signup,#login:hover{
+    color: #fff;
+    background-color: darkblue;
+}

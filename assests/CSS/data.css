@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+outline: none;
+border: none;
+text-decoration: none;
+font-family: 'Pacifico', cursive;
+}
+body{
+    background-color: #f4ebeb;
+}
+.container{
+    display: flex;
+}
+nav{
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100vh;
+background-color: #fff;
+width: 200px;
+overflow: hidden;
+transition: 1s;
+}
+nav:hover{
+    width: 200px;
+    transition: 1s;
+}
+.logo{
+    text-align: center;
+    display: flex;
+    margin: 8px 0 0 8px;
+    padding-bottom: 3rem;
+}
+.logo img{
+    width: 45px;
+    height: 45px;
+}
+.logo span{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-left: 15px;
+}
+.logout{
+margin-top: 100px;}
+.nav-item{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-left: 15px;
+}
+/* attendance list section...... */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header{
+    display: flex;
+    background-color: darkblue;
+    height: 60px;
+padding-top: 10px;
+}
+header h3{
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+    font-size: 30px;
+    padding-left: 30px;
+}
+header a {
+margin-left: 55%;
+float: right;
+}
+
+header a #logout{
+    width: 100px;
+    height: 40px; 
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: 'Pacifico', cursive;
+    background-color: #fff;
+    color: darkblue;
+}
+header a #logout:hover{
+    color: #fff;
+    background-color: darkblue;
+}
+
+#dashTittle{
+padding-left: 50px;
+font-family: 'Pacifico', cursive;
+padding-top: 20px;
+
+}
+#blog{
+background-color: rgb(249, 249, 245);
+    width: 70%;
+    height: 300px;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+#blog input{
+    width: 80%;
+}
+#blog #title{
+    height: 15%;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: 4%;
+    border-color: darkblue;
+}
+#blog #content{
+    height: 40%;
+    border-radius: 10px;
+    margin-left: 10%;
+    /* margin-top: 4%; */
+    /* border-color: darkblue;
+}
+#blog #blogBtn{
+    width: 160px;
+    height: 40px; 
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: 'Pacifico', cursive;
+    background-color: #fff;
+    color: darkblue;   
+    margin-left: 10%;
+}
+#blog #blogBtn:hover{
+    color: #fff;
+    background-color: darkblue;
+}    */ 
