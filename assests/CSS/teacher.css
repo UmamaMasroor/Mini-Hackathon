@@ -1,6 +1,33 @@
-body{   background-color: aliceblue;
+.container{
+    /* background-color: bisque; */
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    justify-content: space-between;
+    margin-left: 500px;
 }
 .container h2{
-    color: darkblue;
-    text-align: center;
+    margin-left: 90px;
+    color: rgb(19, 19, 22);
+}
+.form input{
+    width: 320px;
+    border-radius: 15px;
+    height: 20px;
+    border: 2px solid rgb(28, 28, 29);
+}
+.buttons{
+    padding-left: 90px;
+
+}
+.buttons button{
+    border: 2px solid black;
+    width: 70px;
+    background-color: rgb(234, 215, 190);
+    border-radius: 5px;
+    height: 30px;
+}
+.buttons button:hover{
+    color: white;
+    background-color: rgb(52, 51, 51);
 }
